@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Boleto Saltillo</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">    
+    <script src="js/js.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $(".inner-seat").on("click", function() {
+            $(this).toggleClass("selected-innerColor");
+            $(this).parent().toggleClass("selected-outerColor");
+          });
+        });
+      </script>
+      
+
+</head>
+<body>
+    <header>
+        <h1> JARDINES <span>del</span> CHAPALA </h1>
+                
+        <nav class="nav_principal">
+            <a href = "index.html#inicio">Inicio</a>
+            <a href = "index.html#viajes_disp">Viajes disponibles</a>
+            <a href = "index.html#puntos_venta">Puntos de venta</a>
+        </nav>
+
+    </header>
+
+    <section class="img_Saltillo">
+        <div class="img_cont_boletos">
+        </div>
+    </section>
+
+    <section class="contenedor sombra">
+
+    <h2> Saltillo </h2>
+    <main>
+        
+        <p>                        
+            Salida: Central "El Vergel" <br>
+            Hora de salida: 7:00 p.m.   <br>
+            Precio: $460
+        </p>
+    </main>
+    <p>
+        Reserva con nosotros, puedes elegir los asientos que quieras (Sujeto a disponibilidad).
+    </p>
+    
+    <style>
+        .centrar {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          height: 10vh; 
+        }
+      
+        .outer-seat {
+          margin: 3px; 
+        }
+      </style>
+
+    <div class="centrar">
+        <p>A</p>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth" />
+        
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth"/>
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>                        
+    </div>
+    <p></p>
+    <div class="centrar">
+        <p>B</p>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth" />
+        
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth"/>
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>                        
+    </div>
+    <p></p>
+    
+    <br>
+    <p>Pasillo del camión</p>
+
+    <div class="centrar">
+        <p>C</p>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth" />
+        
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth"/>
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>                        
+    </div>
+    <p></p>
+    <div class="centrar">
+        <p>D</p>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth" />
+        
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <br class="clearBoth"/>
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+
+    
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>
+        <div class="outer-seat" id="div-inline"><div class="inner-seat"></div></div>                        
+    </div>
+    <p></p>
+    <br></br>
+
+    <p>
+        <input type="button" value="Comprar" class="botonBonito">
+
+    </p>
+
+    </section>
+
+    <footer>
+        © Derechos reservador a Neftali Industries 2015.
+    </footer>
+    <a href="https://api.whatsapp.com/send/?phone=%2B528712516480&text&type=phone_number&app_absent=0"> <button id="scrollToTopButton">¡Contáctenos! ></button></a>
+</body>
+</html>

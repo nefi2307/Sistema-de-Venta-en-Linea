@@ -1,0 +1,289 @@
+:root{
+    --principal: #026b28;
+    --principal_oscuro: #024d1d;
+    --secundario: #FFEEB6;
+    --blanco: #FFFFFF;
+    --oscuro: #141414;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--secundario);
+}
+
+h1{
+    text-align: left;
+    font-size: 7rem;
+    margin-left: 10rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+header{
+    background-color: var(--principal);
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+span{
+    font-size: 5rem;
+}
+
+.nav_principal{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_principal a{
+    font-size: 2.5rem;  
+    color: var(--blanco);
+    text-decoration: none;
+    text-align: right;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 5rem;
+}
+
+.nav_principal a:hover{
+    background-color: var(--principal_oscuro);
+    font-weight: bold;
+}
+
+.img{
+    background-image: url(../img/main_1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.img_Vergel{
+    background-image: url(../img/vergel_boletos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.img_Saltillo{
+    background-image: url(../img/saltillo_boletos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.img_cont{
+    color: var(--blanco);
+    position: absolute;
+    background-color: rgba(0 0 0 / 65%);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_cont_boletos{
+    color: var(--blanco);
+    position: absolute;
+    background-color: rgba(0 0 0 / 30%);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_Vergel{
+    background-image: url(../img/vergel_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.info_Vergel{
+    color: var(--blanco);
+    position: absolute;
+    background-color: rgba(0 0 0 / 40%);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_Vergel:hover{
+    background-color: rgba(0 0 0 / 60%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cover_Transparente{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.cont_Saltillo{
+    background-image: url(../img/saltillo_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.info_Saltillo{
+    color: var(--blanco);
+    position: absolute;
+    background-color: rgba(0 0 0 / 40%);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_Saltillo:hover{
+    background-color: rgba(0 0 0 / 60%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contenedor{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: var(--blanco);
+}
+
+.secciones_sobreNosotros{
+    display: grid;
+    grid-template-columns: 10% 25% 65%;
+    align-items: center;
+    justify-items: center;
+}
+
+footer{
+    background-color: var(--principal);
+    color: var(--blanco);
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+}
+
+#scrollToTopButton {
+    display: var(--blanco);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color:#141414;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.outer-seat{
+    width: 80px;
+      height: 80px;
+    border-radius: 9px;
+    border: 3px solid #D8D8D8 ;
+      background: white;
+    position: relative;
+    margin: 4px;
+}
+
+.inner-seat{
+    width: 70px;
+      height: 70px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0px 0px -35px;
+      background: #D8D8D8 ;
+    position: absolute;
+}
+  
+#div-inline{float: left; }
+  
+.outer-seat:hover{
+     border-color: var(--principal);
+}
+  
+#div-inline:hover .inner-seat{
+     background: var(--principal);
+}
+  
+.clearBoth { clear:both; }
+  
+.selected-innerColor { 
+    background-color: var(--principal_oscuro); 
+}
+  
+.selected-outerColor {
+    border-color: var(--principal_oscuro);
+}
+  
+.botonBonito{
+    background-color: #141414;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
